@@ -28,7 +28,7 @@ It contains an array of JSON objects with the following keys:
         - `tbd`: Brain has yet to be confirmed
 - messages (array<string>): Array of message objects from the brain
     - **mandatory**
-    - Each object in array must be in format:
+    - Each object in array must be in the format:
         - quote (string): Exact text transcription of brain's message
         - notes (array<string>): Array of notes represented as strings
     - Ideas for other possible fields:
