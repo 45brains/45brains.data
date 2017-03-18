@@ -19,12 +19,13 @@ It contains an array of JSON objects with the following keys:
 - bio (string): Biography of brain.
     - **mandatory**
 - images (array<string>): Array of image urls for brain
+    - **mandatory**
     - If url is in format `media@<picture.png>` it is assumed that it is identifying an image in the path: `/media/brains/<brain.id>/<picture.png>.
 - status (enum): Status of brain in 45brains project
+    - **mandatory**
     - Must have one of the following values:
         - `confirmed`: Brain is a confirmed member of the super IoT network
         - `tbd`: Brain has yet to be confirmed
-    - **mandatory**
 - messages (array<string>): Array of message onjects from the brain
     - **mandatory**
     - Each object in array must be in format:
