@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Tommy Westphall",
     "bio": "Tommy Westphall, possibly the lead brain, contains most of the televised world within the confines of his cerebellum.",
+    "images": ["media@profile.png"],
     "status": "confirmed",
     "messages": [
       {"quote": "Shut up. Fix global warming."}
