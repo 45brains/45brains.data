@@ -1,5 +1,5 @@
 # 45brains
-This repository holds the code for the 45brains.online website.
+This repository holds the data for the 45brains.online website.
 
 # Data
 The `/data` directory currently holds all information we know about the 45 brains in machine readable form. 
@@ -18,6 +18,8 @@ It contains an array of JSON objects with the following keys:
     - **mandatory**
 - bio (string): Biography of brain.
     - **mandatory**
+- images (array<string>): Array of image urls for brain
+    - If url is in format `media@<picture.png>` it is assumed that it is identifying an image in the path: `/media/brains/<brain.id>/<picture.png>.
 - status (enum): Status of brain in 45brains project
     - Must have one of the following values:
         - `confirmed`: Brain is a confirmed member of the super IoT network
