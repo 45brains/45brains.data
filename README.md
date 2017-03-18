@@ -26,7 +26,7 @@ It contains an array of JSON objects with the following keys:
     - Must have one of the following values:
         - `confirmed`: Brain is a confirmed member of the super IoT network
         - `tbd`: Brain has yet to be confirmed
-- messages (array<string>): Array of message onjects from the brain
+- messages (array<string>): Array of message objects from the brain
     - **mandatory**
     - Each object in array must be in format:
         - quote (string): Exact text transcription of brain's message
