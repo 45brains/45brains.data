@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "Tommy Westphall",
+    "bio": "Tommy Westphall, possibly the lead brain, contains most of the televised world within the confines of his cerebellum.",
+    "status": "confirmed",
+    "messages": [
+      {"quote": "Shut up. Fix global warming."}
+    ],
+    "discovered_on": "importantiftrue:-1",
+    "links": [
+      {"text": "More info", "link": "https://en.wikipedia.org/wiki/Tommy_Westphall"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Newhart",
+    "bio": "The central character of The Bob Newhart Show, as played by Bob Newhart.",
+    "status": "confirmed",
+    "messages": [
+      {"quote": "Watch more television"},
+      {"quote": "Buy this Newhart lunchbox"}
+    ],
+    "discovered_on": "importantiftrue:-1",
+    "links": [
+      {"text": "More info", "link": "https://en.wikipedia.org/wiki/Bob_Newhart#The_Bob_Newhart_Show"}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Snagglepuss",
+    "bio": "An underappreciated screenwriter.",
+    "status": "confirmed",
+    "messages": [
+      {"quote": "Exiting stage left"},
+      {
+        "quote": "We'll take over the world. The globe, evennnnn!",
+        "notes": [
+          "Researchers where unable to transcribe the tone in which this message was said, but we all know it."
+        ]
+      }
+    ],
+    "discovered_on": "importantiftrue:-1",
+    "links": [
+      {"text": "More info", "link": "https://en.wikipedia.org/wiki/Snagglepuss"}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "John Munch",
+    "bio": "A detective so good he passes through the fourth wall to reach other TV serials.",
+    "status": "confirmed",
+    "messages": [
+      {"quote": "I don't like working Saturdays"}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://en.wikipedia.org/wiki/John_Munch"}
+    ]
+  },
+  {
+
+  }
+]
