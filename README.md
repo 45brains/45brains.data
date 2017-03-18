@@ -20,7 +20,7 @@ It contains an array of JSON objects with the following keys:
     - **mandatory**
 - images (array<string>): Array of image urls for brain
     - **mandatory**
-    - If url is in format `media@<picture.png>` it is assumed that it is identifying an image in the path: `/media/brains/<brain.id>/<picture.png>.
+    - If url is in format `media@<picture.png>` it is assumed that it is identifying an image in the path: `/media/brains/<brain.id>/<picture.png>`.
 - status (enum): Status of brain in 45brains project
     - **mandatory**
     - Must have one of the following values:
