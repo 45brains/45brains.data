@@ -35,7 +35,7 @@
     "images": ["media@profile.png"],
     "status": "confirmed",
     "messages": [
-      {"quote": "Exiting stage left"},
+      {"quote": "Exiting stage left."},
       {
         "quote": "We'll take over the world. The globe, evennnnn!",
         "notes": [
@@ -57,11 +57,59 @@
     "messages": [
       {"quote": "I don't like working Saturdays"}
     ],
+    "discovered_on": "importantiftrue:-1",
     "links": [
       {"text": "More info", "link": "https://en.wikipedia.org/wiki/John_Munch"}
     ]
   },
   {
-
+    "id": 5,
+    "name": "Benny Russell",
+    "bio": "Alter ego of Deep Space Nine's Command Sisko that lives as a science-fiction writer in 1950's America.",
+    "images": ["media@profile.png"],
+    "status": "confirmed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "I created it, and it's REAL!"}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://en.wikipedia.org/wiki/Benjamin_Sisko#Benny_Russell"}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Unknown Flamethrower-laden Robot",
+    "bio": "Brain unknown, but definitely has a flamethrower attached.",
+    "images": ["media@profile.png"],
+    "status": "partial",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [],
+    "links": []
+  },
+  {
+    "id": 8,
+    "name": "Nyquil Jeff Goldblum",
+    "bio": "The personality of Jeff Goldblum that surfaces when Chris Remo has ingested Nyquil and dozed off.",
+    "images": ["media@profile.png"],
+    "status": "proposed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "*incoherent chuckle*", "medium": "Drug experimentation"}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://www.idlethumbs.net/importantiftrue/episodes/a-thousand-dormant-machines"}
+    ]
+  },
+  {
+    "id": 17,
+    "name": "The Brain Wearing Arnold's Skin",
+    "bio": "To ensure the highest resale value, this brain wears Arnold Schwarzenegger's skin so it can be sold as 'pre-worn'."
+    "images": ["media@profile.png"],
+    "status": "confirmed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "The worst thing I can be is the same as everybody else. I hate that."}
+    ],
+    "links": []
   }
 ]

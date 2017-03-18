@@ -24,15 +24,16 @@ It contains an array of JSON objects with the following keys:
 - status (enum): Status of brain in 45brains project
     - **mandatory**
     - Must have one of the following values:
-        - `confirmed`: Brain is a confirmed member of the super IoT network
+        - `confirmed`: Brain is a confirmed an Actual Human Brain by an Idle Thumbs team member
+        - `partial`: Brain holds partial cannon status in Idle Thumbs universe
+        - `proposed`: Brain has been proposed to Idle Thumbs network team as an Actual Human Brain
         - `tbd`: Brain has yet to be confirmed
 - messages (array<string>): Array of message objects from the brain
     - **mandatory**
     - Each object in array must be in the format:
         - quote (string): Exact text transcription of brain's message
         - notes (array<string>): Array of notes represented as strings
-    - Ideas for other possible fields:
-        - medium (string): Medium in which message was delivered by brain
+       - medium (string): Medium in which message was delivered by brain
 - discovered_on (uri): Where the brain was discovered
     - Must be a all lowercase uri in format: `show:episode`
         - show (string): Name of show which brain was discovered on
