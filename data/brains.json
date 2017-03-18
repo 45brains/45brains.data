@@ -17,6 +17,7 @@
     "id": 2,
     "name": "Bob Newhart",
     "bio": "The central character of The Bob Newhart Show, as played by Bob Newhart.",
+    "images": ["media@profile.png"],
     "status": "confirmed",
     "messages": [
       {"quote": "Watch more television"},
@@ -31,6 +32,7 @@
     "id": 3,
     "name": "Snagglepuss",
     "bio": "An underappreciated screenwriter.",
+    "images": ["media@profile.png"],
     "status": "confirmed",
     "messages": [
       {"quote": "Exiting stage left"},
@@ -50,6 +52,7 @@
     "id": 4,
     "name": "John Munch",
     "bio": "A detective so good he passes through the fourth wall to reach other TV serials.",
+    "images": ["media@profile.png"],
     "status": "confirmed",
     "messages": [
       {"quote": "I don't like working Saturdays"}
