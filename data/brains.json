@@ -103,7 +103,7 @@
   {
     "id": 17,
     "name": "The Brain Wearing Arnold's Skin",
-    "bio": "To ensure the highest resale value, this brain wears Arnold Schwarzenegger's skin so it can be sold as 'pre-worn'."
+    "bio": "To ensure the highest resale value, this brain wears Arnold Schwarzenegger's skin so it can be sold as 'pre-worn'.",
     "images": ["media@profile.png"],
     "status": "confirmed",
     "discovered_on": "importantiftrue:-1",

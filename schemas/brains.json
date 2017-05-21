@@ -1,12 +1,94 @@
 {
-  "id": "http://45brains.online/schemas/brains.json#",
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "A collection of brains",
   "description": "Schema for brains data file",
   "type": "array",
   "items": {
     "title": "Brain",
+    "description": "A single brain",
     "type": "object",
-    "properties": {"$ref": "http://45brains.online/schemas/brain.json#"}
+    "properties": {
+      "id": {
+        "description": "Id of brain",
+        "type": "integer"
+      },
+      "name": {
+        "description": "Name of brain",
+        "type": "string"
+      },
+      "bio": {
+        "description": "Biography text of brain",
+        "type": "string"
+      },
+      "images": {
+        "description": "Array of images for brain",
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "status": {
+        "description": "Status of brain in 45brains project",
+        "type": "string",
+        "oneOf": [
+          {"enum": ["confirmed", "partial", "proposed", "tbd"]}
+        ]
+      },
+      "messages": {
+        "description": "Messages said to us by brain",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "quote": {
+              "description": "Exact text said by brain",
+              "type": "string"
+            },
+            "notes": {
+              "description": "List of notes about quote",
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            },
+            "medium": {
+              "description": "Medium in which message was delivered by brain",
+              "type": "string"
+            }
+          },
+          "required": ["quote"]
+        },
+        "uniqueItems": true
+      },
+      "discovered_on": {
+        "description": "When brain was discovered by the Idle Thumbs investigatory network",
+        "type": "string",
+        "oneOf": [
+          {"pattern": "[a-z]*:[1-9-]*"}
+        ]
+      },
+      "links": {
+        "description": "List of links relevant to brain",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "description": "Link text to show in UI",
+              "type": "string"
+            },
+            "link": {
+              "description": "Link URL",
+              "type": "string"
+            }
+          },
+          "required": ["text", "link"]
+        }
+      }
+    },
+    "required": ["id", "name", "bio", "images", "status", "messages", "discovered_on"]
   }
 }
