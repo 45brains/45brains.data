@@ -115,6 +115,20 @@
     ]
   },
   {
+    "id": 9,
+    "name": "The Mad Snappler",
+    "bio": "Poses as a woman unable to open Snapple bottles with the supplied lid.",
+    "images": ["media@profile.png"],
+    "status": "proposed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "Must consume electrolytes."}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://www.idlethumbs.net/importantiftrue/episodes/get-hoisted"}
+    ]
+  },
+  {
     "id": 17,
     "name": "The Brain Wearing Arnold's Skin",
     "bio": "To ensure the highest resale value, this brain wears Arnold Schwarzenegger's skin so it can be sold as 'pre-worn'."
