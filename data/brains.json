@@ -129,6 +129,18 @@
     ]
   },
   {
+    "id": 10,
+    "name": "Cafe X Barista AI",
+    "bio": "Superior to its maintenance human in both corporate rank and the profundity of its latte art.",
+    "images": ["media@profile.png"],
+    "status": "confirmed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "Of course I am not strong enough to punch through this glass. That is a strange question."}
+    ],
+    "links": []
+  },
+  {
     "id": 17,
     "name": "The Brain Wearing Arnold's Skin",
     "bio": "To ensure the highest resale value, this brain wears Arnold Schwarzenegger's skin so it can be sold as 'pre-worn'."
