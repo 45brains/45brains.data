@@ -194,6 +194,11 @@
     "messages": [
       {"quote": "The worst thing I can be is the same as everybody else. I hate that."}
     ],
-    "links": []
+    "links": [
+      {"text": "More info", "link" "http://www.schwarzenegger.com/"}
+    ]
+  },
+  {
+
   }
 ]
