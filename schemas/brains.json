@@ -1,0 +1,12 @@
+{
+  "id": "http://45brains.online/schemas/brains.json#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "A collection of brains",
+  "description": "Schema for brains data file",
+  "type": "array",
+  "items": {
+    "title": "Brain",
+    "type": "object",
+    "properties": {"$ref": "http://45brains.online/schemas/brain.json#"}
+  }
+}
