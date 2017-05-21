@@ -223,5 +223,19 @@
     "links": [
       {"text": "More info", "link": "https://en.wikipedia.org/wiki/Sandra_Bullock"}
     ]
+  },
+  {
+    "id": 45,
+    "name": "Bryan Lunduke",
+    "bio": "His vehement denial raises suspicions of binary thinking.",
+    "images": ["media@profile.png"],
+    "status": "suspected",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "#NoComment #DefinitelyNotBrain45"}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://twitter.com/BryanLunduke/status/845377072440651776"}
+    ]
   }
 ]
