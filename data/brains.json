@@ -195,10 +195,21 @@
       {"quote": "The worst thing I can be is the same as everybody else. I hate that."}
     ],
     "links": [
-      {"text": "More info", "link" "http://www.schwarzenegger.com/"}
+      {"text": "More info", "link": "http://www.schwarzenegger.com/"}
     ]
   },
   {
-
+    "id": 18,
+    "name": "Union Rooster",
+    "bio": "The combined moods of the a Swedish union maintain the fury that drives this chicken to enslave and perpetually berate its former master.",
+    "images": ["media@profile.png"],
+    "status": "proposed",
+    "discovered_on": "importantiftrue:5",
+    "messages": [
+      {"quote": "Cockadoo-FUCK YOU!"}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://www.idlethumbs.net/importantiftrue/episodes/the-convergence-compulsion"}
+    ]
   }
 ]
