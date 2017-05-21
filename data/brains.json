@@ -138,7 +138,23 @@
     "messages": [
       {"quote": "Of course I am not strong enough to punch through this glass. That is a strange question."}
     ],
-    "links": []
+    "links": [
+      {"text": "More info", "link": "https://www.cafexapp.com/"}
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Robot That Can Stab You 61 Different Ways",
+    "bio": "Robots can be creative.",
+    "images": ["media@profile.png"],
+    "status": "confirmed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "This one's an original!"}
+    ],
+    "links": [
+      {"text": "More info", "link": "http://www.popsci.com/knife-stabbing-machine"}
+    ]
   },
   {
     "id": 17,
