@@ -77,6 +77,20 @@
     ]
   },
   {
+    "id": 6,
+    "name": "Credit Human",
+    "bio": "Looks and sounds like the human it aspires to be. Good rates.",
+    "images": ["media@profile.png"],
+    "status": "confirmed",
+    "discovered_on": "importiftrue:-1",
+    "messages": [
+      {"quote": "Please bank with human"}
+    ],
+    "links": [
+      {"text": "more info", "link": "https://www.sacu.com/SACU-is-now-Credit-Human"}
+    ]
+  },
+  {
     "id": 7,
     "name": "Unknown Flamethrower-laden Robot",
     "bio": "Brain unknown, but definitely has a flamethrower attached.",
@@ -101,6 +115,76 @@
     ]
   },
   {
+    "id": 9,
+    "name": "The Mad Snappler",
+    "bio": "Poses as a woman unable to open Snapple bottles with the supplied lid.",
+    "images": ["media@profile.png"],
+    "status": "proposed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "Must consume electrolytes."}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://www.idlethumbs.net/importantiftrue/episodes/get-hoisted"}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Cafe X Barista AI",
+    "bio": "Superior to its maintenance human in both corporate rank and the profundity of its latte art.",
+    "images": ["media@profile.png"],
+    "status": "confirmed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "Of course I am not strong enough to punch through this glass. That is a strange question."}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://www.cafexapp.com/"}
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Robot That Can Stab You 61 Different Ways",
+    "bio": "Robots can be creative.",
+    "images": ["media@profile.png"],
+    "status": "confirmed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "This one's an original!"}
+    ],
+    "links": [
+      {"text": "More info", "link": "http://www.popsci.com/knife-stabbing-machine"}
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Furby Ghost",
+    "bio": "Half of what was once whole.",
+    "images": ["media@profile.png"],
+    "status": "proposed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "You didn't take good care of me."}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://www.hasbro.com/en-us/brands/furby"}
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Furby Goblin",
+    "bio": "Half of what was once whole.",
+    "images": ["media@profile.png"],
+    "status": "proposed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "I'm so cold."}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://www.hasbro.com/en-us/brands/furby"}
+    ]
+  },
+  {
     "id": 17,
     "name": "The Brain Wearing Arnold's Skin",
     "bio": "To ensure the highest resale value, this brain wears Arnold Schwarzenegger's skin so it can be sold as 'pre-worn'."
@@ -110,6 +194,48 @@
     "messages": [
       {"quote": "The worst thing I can be is the same as everybody else. I hate that."}
     ],
-    "links": []
+    "links": [
+      {"text": "More info", "link": "http://www.schwarzenegger.com/"}
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Union Rooster",
+    "bio": "The combined moods of the a Swedish union maintain the fury that drives this chicken to enslave and perpetually berate its former master.",
+    "images": ["media@profile.png"],
+    "status": "proposed",
+    "discovered_on": "importantiftrue:5",
+    "messages": [
+      {"quote": "Cockadoo-FUCK YOU!"}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://www.idlethumbs.net/importantiftrue/episodes/the-convergence-compulsion"}
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Sandra Bullock",
+    "bio": "Suspected brain. Further banter necessary to confirm.",
+    "images": ["media@profile.png"],
+    "status": "suspected",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [],
+    "links": [
+      {"text": "More info", "link": "https://en.wikipedia.org/wiki/Sandra_Bullock"}
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Bryan Lunduke",
+    "bio": "His vehement denial raises suspicions of binary thinking.",
+    "images": ["media@profile.png"],
+    "status": "suspected",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "#NoComment #DefinitelyNotBrain45"}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://twitter.com/BryanLunduke/status/845377072440651776"}
+    ]
   }
 ]
