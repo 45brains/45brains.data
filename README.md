@@ -5,7 +5,7 @@ This repository holds the data for the 45brains.online website.
 The `/data` directory currently holds all information we know about the 45 brains in machine readable form. 
 
 Due to their already proven unlimited power, we can only assume that the 45 brains will monitor our progress through the 
-very means we are using to expose them.
+very means we are using to expose them. 
 
 ## `brains.json`
 This file holds all the information we know about the brains. 
