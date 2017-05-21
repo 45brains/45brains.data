@@ -157,6 +157,34 @@
     ]
   },
   {
+    "id": 13,
+    "name": "Furby Ghost",
+    "bio": "Half of what was once whole.",
+    "images": ["media@profile.png"],
+    "status": "proposed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "You didn't take good care of me."}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://www.hasbro.com/en-us/brands/furby"}
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Furby Goblin",
+    "bio": "Half of what was once whole.",
+    "images": ["media@profile.png"],
+    "status": "proposed",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [
+      {"quote": "I'm so cold."}
+    ],
+    "links": [
+      {"text": "More info", "link": "https://www.hasbro.com/en-us/brands/furby"}
+    ]
+  },
+  {
     "id": 17,
     "name": "The Brain Wearing Arnold's Skin",
     "bio": "To ensure the highest resale value, this brain wears Arnold Schwarzenegger's skin so it can be sold as 'pre-worn'."
