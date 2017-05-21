@@ -77,6 +77,20 @@
     ]
   },
   {
+    "id": 6,
+    "name": "Credit Human",
+    "bio": "Looks and sounds like the human it aspires to be. Good rates.",
+    "images": ["media@profile.png"],
+    "status": "confirmed",
+    "discovered_on": "importiftrue:-1",
+    "messages": [
+      {"quote": "Please bank with human"}
+    ],
+    "links": [
+      {"text": "more info", "link": "https://www.sacu.com/SACU-is-now-Credit-Human"}
+    ]
+  },
+  {
     "id": 7,
     "name": "Unknown Flamethrower-laden Robot",
     "bio": "Brain unknown, but definitely has a flamethrower attached.",
