@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "node"
+install:
+  - npm install -g avj-cli
+script:
+  - ajv validate -s schemas/brains.json -d data/brains.json
