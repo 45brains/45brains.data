@@ -211,5 +211,17 @@
     "links": [
       {"text": "More info", "link": "https://www.idlethumbs.net/importantiftrue/episodes/the-convergence-compulsion"}
     ]
+  },
+  {
+    "id": 33,
+    "name": "Sandra Bullock",
+    "bio": "Suspected brain. Further banter necessary to confirm.",
+    "images": ["media@profile.png"],
+    "status": "suspected",
+    "discovered_on": "importantiftrue:-1",
+    "messages": [],
+    "links": [
+      {"text": "More info", "link": "https://en.wikipedia.org/wiki/Sandra_Bullock"}
+    ]
   }
 ]

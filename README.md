@@ -26,6 +26,7 @@ It contains an array of JSON objects with the following keys:
     - Must have one of the following values:
         - `confirmed`: Brain is a confirmed an Actual Human Brain by an Idle Thumbs team member
         - `partial`: Brain holds partial cannon status in Idle Thumbs universe
+        - `suspected`: Brain is suspected
         - `proposed`: Brain has been proposed to Idle Thumbs network team as an Actual Human Brain
         - `tbd`: Brain has yet to be confirmed
 - messages (array<string>): Array of message objects from the brain
