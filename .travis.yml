@@ -2,6 +2,8 @@ language: node_js
 node_js:
   - "node"
 install:
+  # Install JSON Schema checker CLI
   - npm install -g avj-cli
 script:
+  # Check data/brains.json against schema
   - ajv validate -s schemas/brains.json -d data/brains.json
