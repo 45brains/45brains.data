@@ -33,9 +33,11 @@ It contains an array of JSON objects with the following keys:
     - **mandatory**
     - Each object in array must be in the format:
         - quote (string): Exact text transcription of brain's message
+            - **mandatory**
         - notes (array<string>): Array of notes represented as strings
        - medium (string): Medium in which message was delivered by brain
 - discovered_on (uri): Where the brain was discovered
+    - **mandatory**
     - Must be a all lowercase uri in format: `show:episode`
         - show (string): Name of show which brain was discovered on
             - If show is more than one word just remove spaces
@@ -43,6 +45,7 @@ It contains an array of JSON objects with the following keys:
             - `-1` if unknown
     - ex: `importantiftrue:4` for Important If True episode 4.
 - links (array<object>): Array of link objects for brain
+    - **mandatory**
     - Each object in array must be in format:
         - text (string): Text to show for link
         - link (string): Link URL
