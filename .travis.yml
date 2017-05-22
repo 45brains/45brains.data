@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "node"
-install:
+before_install:
   # Install JSON Schema checker CLI
   - npm install -g avj-cli
 script:
